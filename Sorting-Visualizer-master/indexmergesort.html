@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merge Sort</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="header">Merge Sort</div>
+
+    <div class="navbar">
+
+        <div class="divone">
+            <p class="speed">
+                Speed
+                <p class="spdbuttons">
+                    <button class="speedbuttons" id="slowbtn" onclick="speedSlow()">Slow</button>
+                    <button class="speedbuttons" id="mediumbtn" onclick="speedMedium()">Medium</button>
+                    <button class="speedbuttons" id="fastbtn" onclick="speedFast()">Fast</button>
+                </p>
+            </p>
+
+        </div>
+
+        <div class="divtwo">
+            <button class="btn" id="genbtn" onclick="generateNewArray()">Generate New Array</button>
+        </div>
+
+        <div class="divthree">
+            <button class="btn" id="startbtn" onclick="startAnimation()">Start Animation</button>
+        </div>
+
+        <div class="divfour">
+            <button class="btn" onclick="stopAnimation()">Stop Animation</button>
+        </div>
+
+    </div>
+
+    <div id="stopMessage"></div>
+
+    <div id="array"></div>
+    <script src="scriptmergesort.js"></script>
+</body>
+
+</html>
